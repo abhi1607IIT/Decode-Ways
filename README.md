@@ -75,6 +75,8 @@ If input string value at i and i+1 forms a valid character less than 27 and the 
 
 `dp[i] = dp[i] + dp[i + 2]`
 
+Congo your answer is dp[0]
+
 Dry Run for input `2326`
 ```
 i=3 
